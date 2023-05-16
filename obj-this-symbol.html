@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+
+
+
+    <script>
+
+        // ...
+
+
+// let user={
+//   name: "abhi"
+// }
+// let id = Symbol("id");
+
+// user[id]= 1;
+// user.id=2;
+// console.log(user);
+
+
+
+// let user = {
+//   name: "John",
+//   age: 30,
+//   sayHi: function (){
+//     alert(this.name)
+//   }
+// };
+
+
+
+// user.sayHi(); // Hello!
+
+
+
+// let user = {
+//   name: "John",
+//   age: 30,
+
+//   sayHi() {
+//     alert( this.name ); // leads to an error
+//   }
+
+// };
+
+
+// let admin = user;
+// user = null; // overwrite to make things obvious
+// admin.sayHi(); // TypeError: Cannot read property 'name' of null
+let user={
+    name: "abhi",
+sayHi: function () {
+  alert( this.name );
+}
+
+}
+console.log(user.sayHi());
+    </script>
+</body>
+</html>
